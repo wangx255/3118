@@ -1,96 +1,116 @@
-import math
-from geometry_msgs.msg import Pose
+from tf_transformations import euler_from_quaternion
+from geometry_msgs.msg import Pose, PoseStamped
+from rclpy.time import Time
 
 class Node:
-    def __init__(self, x=0.0, y=0.0, z=0.0, orientation=None):
+    """Used to handle the implementation of some of the algorithms in order to handle the visited nodes in the grid and different operations"""
+
+    def __init__(self, x: float = 0.0, y: float = 0.0, theta: float = 0.0, parent=None):
+        self.parent = parent
+
         self.x = x
         self.y = y
-        self.z = z
-        self.orientation = orientation if orientation else [0.0, 0.0, 0.0, 1.0]
-        self.parent = None
-        self.g = math.inf
-        self.h = 0.0
-        self.f = math.inf
+        self.theta = theta
 
-    @staticmethod
-    def from_pose(pose: Pose) -> 'Node':
-        if pose is None:
-            raise ValueError("Pose is None")
-        
-        return Node(
-            x=pose.position.x,
-            y=pose.position.y,
-            z=pose.position.z,
-            orientation=[
-                pose.orientation.x,
-                pose.orientation.y,
-                pose.orientation.z,
-                pose.orientation.w
-            ]
-        )
+        self.g = 0  # From current node to start node
+        self.h = 0  # From current node to end node
+        self.f = 0  # Total cost
 
-    @staticmethod
-    def from_tf(position: list, orientation: list) -> 'Node':
-        if not position or not orientation:
-            raise ValueError("Position or Orientation is None")
-        
-        return Node(
-            x=position[0],
-            y=position[1],
-            z=position[2],
-            orientation=orientation
-        )
+        self.pixel_tolerance = 1
 
-    def to_pose_stamped(self) -> PoseStamped:
-        pose_stamped = PoseStamped()
-        pose_stamped.header.frame_id = 'map'
-        pose_stamped.pose.position.x = self.x
-        pose_stamped.pose.position.y = self.y
-        pose_stamped.pose.position.z = self.z
-        pose_stamped.pose.orientation.x = self.orientation[0]
-        pose_stamped.pose.orientation.y = self.orientation[1]
-        pose_stamped.pose.orientation.z = self.orientation[2]
-        pose_stamped.pose.orientation.w = self.orientation[3]
-        return pose_stamped
+    def __eq__(self, other) -> bool:
+        return self.calculate_distance(other) < 0.1
 
-    def calculate_distance(self, other: 'Node') -> float:
-        return math.sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
+    def __add__(self, other):
+        return Node(self.x + other.x, self.y + other.y)
+
+    def __radd__(self, other):
+        if other == 0:
+            return self
+        else:
+            return self.__add__(other)
+
+    def __truediv__(self, other):
+        return Node(self.x / other, self.y / other)
+
+    def calculate_distance(self, end) -> float:
+        """
+        Euclidean distance between two nodes
+
+        d = sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2))
+        """
+        return ((self.x - end.x) ** 2 + (self.y - end.y) ** 2) ** 0.5
 
     def generate_neighbors(self, map_resolution: float) -> list:
-        """Generate 8-connected neighbors based on map resolution"""
-        directions = [
-            (-1, -1), (-1, 0), (-1, 1),
-            (0, -1),          (0, 1),
-            (1, -1),  (1, 0), (1, 1)
-        ]
+        """Obtain the neighbors as nodes"""
         neighbors = []
-        for dx, dy in directions:
-            neighbor = Node(
-                x=self.x + dx * map_resolution,
-                y=self.y + dy * map_resolution,
-                z=self.z,
-                orientation=self.orientation.copy()
-            )
-            neighbors.append(neighbor)
+        step = map_resolution
+        moves = [
+            (0, -step),
+            (0, step),
+            (-step, 0),
+            (step, 0),
+            (-step, -step),
+            (-step, step),
+            (step, -step),
+            (step, step),
+        ]
+
+        for move in moves:
+            neighbors.append(Node(x=self.x + move[0], y=self.y + move[1]))
+
         return neighbors
 
     def backtrack_path(self) -> list:
-        """Reconstruct path from goal to start"""
+        """Obtain the path backtracking from the current nodes to all the subsequent parents"""
         path = []
-        node = self
-        while node is not None:
-            path.append(node)
-            node = node.parent
-        path.reverse()
-        return path
+        current_node = self
 
-    def get_key(self) -> tuple:
-        """Generate a key with rounded coordinates to avoid floating point precision issues"""
-        return (round(self.x, 4), round(self.y, 4))
+        while current_node.parent:
+            path.append(current_node)
+            current_node = current_node.parent
 
-    def __hash__(self):
-        return hash(self.get_key())
+        return (path + [current_node])[::-1]
 
-    def __eq__(self, other):
-        return isinstance(other, Node) and self.get_key() == other.get_key()
+    @staticmethod
+    def from_pose(pose: Pose):
+        """Define Node object from a Pose"""
+        new_state = Node()
+        new_state.x = pose.position.x
+        new_state.y = pose.position.y
+
+        quaternion = (
+            pose.orientation.x,
+            pose.orientation.y,
+            pose.orientation.z,
+            pose.orientation.w,
+        )
+        (roll, pitch, yaw) = euler_from_quaternion(quaternion)
+        new_state.theta = yaw
+
+        return new_state
+
+    @staticmethod
+    def from_tf(position: list, quaternion: list):
+        """Define Node object from position and quaternion"""
+        new_state = Node()
+        new_state.x = position[0]
+        new_state.y = position[1]
+
+        (roll, pitch, yaw) = euler_from_quaternion(quaternion)
+        new_state.theta = yaw
+
+        return new_state
+
+    def to_pose_stamped(self):
+        """Get Pose object from current Node object position"""
+        pose = PoseStamped()
+        pose.header.frame_id = "map"
+        pose.header.stamp = Time().to_msg()
+
+        pose.pose.position.x = self.x
+        pose.pose.position.y = self.y
+        pose.pose.orientation.w = 1.0
+
+        return pose
 
