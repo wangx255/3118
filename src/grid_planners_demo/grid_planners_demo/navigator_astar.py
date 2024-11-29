@@ -73,7 +73,7 @@ class Navigator(RclpyNode):
 
         time.sleep(1)
 
-        # 订阅器
+        
         self.start_subscriber = self.create_subscription(
             TFMessage, "/tf", self.robot_pose_callback, 10
         )
@@ -93,12 +93,12 @@ class Navigator(RclpyNode):
             OccupancyGrid, self.map_topic_, self.map_callback, 10
         )
 
-        # 发布器
+        
         self.path_publisher = self.create_publisher(Path, "/path", 10)
         self.stop_motion_publisher = self.create_publisher(Bool, "/stop_motion", 10)
         self.goal_publisher = self.create_publisher(PoseStamped, "/goal_controller", 10)
 
-        # 定时器
+        
         self.timer = self.create_timer(0.1, self.planning_callback)
 
     def goal_reached_callback(self, goal_reached: Bool):
