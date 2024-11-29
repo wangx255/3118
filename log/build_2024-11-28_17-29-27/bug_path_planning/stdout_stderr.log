@@ -1,0 +1,32 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating bug_path_planning.egg-info
+writing bug_path_planning.egg-info/PKG-INFO
+writing dependency_links to bug_path_planning.egg-info/dependency_links.txt
+writing entry points to bug_path_planning.egg-info/entry_points.txt
+writing requirements to bug_path_planning.egg-info/requires.txt
+writing top-level names to bug_path_planning.egg-info/top_level.txt
+writing manifest file 'bug_path_planning.egg-info/SOURCES.txt'
+reading manifest file 'bug_path_planning.egg-info/SOURCES.txt'
+writing manifest file 'bug_path_planning.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/python3.10/site-packages/bug-path-planning.egg-link (link to .)
+Installing boundary_following script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+Installing bug1 script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+Installing bug2 script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+Installing bug_tangent script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+Installing motion_to_goal script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+
+Installed /home/xinruwang/comp_robot_ws/build/bug_path_planning
+running symlink_data
+creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index
+creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index/resource_index
+creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/resource/bug_path_planning -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/package.xml -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning
+creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/launch/bug2.launch.py -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/launch/bug1.launch.py -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/launch/bug_tangent.launch.py -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch

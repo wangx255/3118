@@ -1,0 +1,26 @@
+[0.653s] Invoking command in '/home/xinruwang/comp_robot_ws/build/robot_control': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/robot_control/build --no-deps symlink_data
+[1.162s] running develop
+[1.164s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.164s]   warnings.warn(
+[1.385s] running egg_info
+[1.385s] creating robot_control.egg-info
+[1.385s] writing robot_control.egg-info/PKG-INFO
+[1.386s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[1.386s] writing entry points to robot_control.egg-info/entry_points.txt
+[1.387s] writing requirements to robot_control.egg-info/requires.txt
+[1.387s] writing top-level names to robot_control.egg-info/top_level.txt
+[1.387s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.392s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.393s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.397s] running build_ext
+[1.398s] Creating /home/xinruwang/comp_robot_ws/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+[1.400s] Installing controller_py script to /home/xinruwang/comp_robot_ws/install/robot_control/lib/robot_control
+[1.400s] 
+[1.407s] Installed /home/xinruwang/comp_robot_ws/build/robot_control
+[1.408s] running symlink_data
+[1.408s] creating /home/xinruwang/comp_robot_ws/install/robot_control/share/ament_index
+[1.408s] creating /home/xinruwang/comp_robot_ws/install/robot_control/share/ament_index/resource_index
+[1.408s] creating /home/xinruwang/comp_robot_ws/install/robot_control/share/ament_index/resource_index/packages
+[1.408s] symbolically linking /home/xinruwang/comp_robot_ws/build/robot_control/resource/robot_control -> /home/xinruwang/comp_robot_ws/install/robot_control/share/ament_index/resource_index/packages
+[1.408s] symbolically linking /home/xinruwang/comp_robot_ws/build/robot_control/package.xml -> /home/xinruwang/comp_robot_ws/install/robot_control/share/robot_control
+[1.455s] Invoked command in '/home/xinruwang/comp_robot_ws/build/robot_control' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/robot_control/build --no-deps symlink_data

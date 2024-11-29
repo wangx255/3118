@@ -1,0 +1,26 @@
+[1.084s] Invoking command in '/home/xinruwang/comp_robot_ws/build/robot_navigation': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/robot_navigation/build --no-deps symlink_data
+[1.495s] running develop
+[1.495s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.495s]   warnings.warn(
+[1.685s] running egg_info
+[1.686s] creating robot_navigation.egg-info
+[1.691s] writing robot_navigation.egg-info/PKG-INFO
+[1.691s] writing dependency_links to robot_navigation.egg-info/dependency_links.txt
+[1.691s] writing entry points to robot_navigation.egg-info/entry_points.txt
+[1.691s] writing requirements to robot_navigation.egg-info/requires.txt
+[1.691s] writing top-level names to robot_navigation.egg-info/top_level.txt
+[1.693s] writing manifest file 'robot_navigation.egg-info/SOURCES.txt'
+[1.693s] reading manifest file 'robot_navigation.egg-info/SOURCES.txt'
+[1.694s] writing manifest file 'robot_navigation.egg-info/SOURCES.txt'
+[1.698s] running build_ext
+[1.698s] Creating /home/xinruwang/comp_robot_ws/install/robot_navigation/lib/python3.10/site-packages/robot-navigation.egg-link (link to .)
+[1.703s] Installing navigator_py script to /home/xinruwang/comp_robot_ws/install/robot_navigation/lib/robot_navigation
+[1.703s] 
+[1.703s] Installed /home/xinruwang/comp_robot_ws/build/robot_navigation
+[1.703s] running symlink_data
+[1.703s] creating /home/xinruwang/comp_robot_ws/install/robot_navigation/share/ament_index
+[1.703s] creating /home/xinruwang/comp_robot_ws/install/robot_navigation/share/ament_index/resource_index
+[1.703s] creating /home/xinruwang/comp_robot_ws/install/robot_navigation/share/ament_index/resource_index/packages
+[1.704s] symbolically linking /home/xinruwang/comp_robot_ws/build/robot_navigation/resource/robot_navigation -> /home/xinruwang/comp_robot_ws/install/robot_navigation/share/ament_index/resource_index/packages
+[1.704s] symbolically linking /home/xinruwang/comp_robot_ws/build/robot_navigation/package.xml -> /home/xinruwang/comp_robot_ws/install/robot_navigation/share/robot_navigation
+[1.760s] Invoked command in '/home/xinruwang/comp_robot_ws/build/robot_navigation' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/robot_navigation/build --no-deps symlink_data

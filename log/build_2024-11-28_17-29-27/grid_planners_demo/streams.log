@@ -1,0 +1,36 @@
+[0.932s] Invoking command in '/home/xinruwang/comp_robot_ws/build/grid_planners_demo': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/grid_planners_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/grid_planners_demo/build --no-deps symlink_data
+[1.240s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.240s]   warnings.warn(
+[1.241s] running develop
+[1.418s] running egg_info
+[1.418s] creating grid_planners_demo.egg-info
+[1.418s] writing grid_planners_demo.egg-info/PKG-INFO
+[1.418s] writing dependency_links to grid_planners_demo.egg-info/dependency_links.txt
+[1.418s] writing entry points to grid_planners_demo.egg-info/entry_points.txt
+[1.419s] writing requirements to grid_planners_demo.egg-info/requires.txt
+[1.419s] writing top-level names to grid_planners_demo.egg-info/top_level.txt
+[1.419s] writing manifest file 'grid_planners_demo.egg-info/SOURCES.txt'
+[1.421s] reading manifest file 'grid_planners_demo.egg-info/SOURCES.txt'
+[1.433s] writing manifest file 'grid_planners_demo.egg-info/SOURCES.txt'
+[1.433s] running build_ext
+[1.433s] Creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/python3.10/site-packages/grid-planners-demo.egg-link (link to .)
+[1.433s] Installing navigator_astar script to /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/grid_planners_demo
+[1.433s] Installing navigator_dijkstra script to /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/grid_planners_demo
+[1.433s] Installing navigator_dstar_lite script to /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/grid_planners_demo
+[1.433s] 
+[1.433s] Installed /home/xinruwang/comp_robot_ws/build/grid_planners_demo
+[1.433s] running symlink_data
+[1.433s] creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index
+[1.433s] creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index/resource_index
+[1.433s] creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index/resource_index/packages
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/resource/grid_planners_demo -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index/resource_index/packages
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/package.xml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo
+[1.433s] creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/launch/goto_astar_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/launch/goto_dstar_lite_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/launch/goto_dijkstra_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+[1.433s] creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/config/dijkstra_params.yaml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/config/dstar_lite_params.yaml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+[1.433s] symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/config/astar_params.yaml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+[1.451s] Invoked command in '/home/xinruwang/comp_robot_ws/build/grid_planners_demo' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/grid_planners_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/grid_planners_demo/build --no-deps symlink_data

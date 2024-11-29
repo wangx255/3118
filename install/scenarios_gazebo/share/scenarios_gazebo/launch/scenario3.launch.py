@@ -1,0 +1,1 @@
+/home/xinruwang/comp_robot_ws/src/scenarios_gazebo/launch/scenario3.launch.py

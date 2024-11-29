@@ -1,0 +1,43 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating m2wr_description.egg-info
+writing m2wr_description.egg-info/PKG-INFO
+writing dependency_links to m2wr_description.egg-info/dependency_links.txt
+writing entry points to m2wr_description.egg-info/entry_points.txt
+writing requirements to m2wr_description.egg-info/requires.txt
+writing top-level names to m2wr_description.egg-info/top_level.txt
+writing manifest file 'm2wr_description.egg-info/SOURCES.txt'
+reading manifest file 'm2wr_description.egg-info/SOURCES.txt'
+writing manifest file 'm2wr_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xinruwang/comp_robot_ws/install/m2wr_description/lib/python3.10/site-packages/m2wr-description.egg-link (link to .)
+Installing groundtruth_broadcaster script to /home/xinruwang/comp_robot_ws/install/m2wr_description/lib/m2wr_description
+Installing tf_broadcaster script to /home/xinruwang/comp_robot_ws/install/m2wr_description/lib/m2wr_description
+
+Installed /home/xinruwang/comp_robot_ws/build/m2wr_description
+running symlink_data
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index/resource_index
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/resource/m2wr_description -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/package.xml -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/gazebo.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/spawn.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/gazebo_odom.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/spawn_odom.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/config
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/config/controllers.yaml -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/config
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/materials.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/macros.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr_manual.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr_manual.gazebo -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr.gazebo -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/worlds
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/worlds/sphere_example.world -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/worlds
+creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/rviz
+symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/rviz/test_odom.rviz -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/rviz

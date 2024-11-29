@@ -1,0 +1,1 @@
+/home/xinruwang/comp_robot_ws/build/sampling_planners_demo/ament_cmake_environment_hooks/local_setup.zsh

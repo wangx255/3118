@@ -1,0 +1,36 @@
+[0.572s] Invoking command in '/home/xinruwang/comp_robot_ws/build/tf_demos': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/tf_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/tf_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/tf_demos/build --no-deps symlink_data
+[0.809s] running develop
+[0.810s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.810s]   warnings.warn(
+[0.948s] running egg_info
+[0.948s] creating tf_demos.egg-info
+[0.948s] writing tf_demos.egg-info/PKG-INFO
+[0.949s] writing dependency_links to tf_demos.egg-info/dependency_links.txt
+[0.949s] writing entry points to tf_demos.egg-info/entry_points.txt
+[0.949s] writing requirements to tf_demos.egg-info/requires.txt
+[0.949s] writing top-level names to tf_demos.egg-info/top_level.txt
+[0.950s] writing manifest file 'tf_demos.egg-info/SOURCES.txt'
+[0.952s] reading manifest file 'tf_demos.egg-info/SOURCES.txt'
+[0.952s] writing manifest file 'tf_demos.egg-info/SOURCES.txt'
+[0.954s] running build_ext
+[0.955s] Creating /home/xinruwang/comp_robot_ws/install/tf_demos/lib/python3.10/site-packages/tf-demos.egg-link (link to .)
+[0.955s] Installing camera_link_broadcaster script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.955s] Installing can_link_broadcaster script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.956s] Installing quaternions_conversion script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.956s] Installing static_tf_broadcaster script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.957s] Installing tf_broadcaster script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.957s] Installing tf_structures script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.957s] Installing transformation_matrix script to /home/xinruwang/comp_robot_ws/install/tf_demos/lib/tf_demos
+[0.957s] 
+[0.957s] Installed /home/xinruwang/comp_robot_ws/build/tf_demos
+[0.957s] running symlink_data
+[0.958s] creating /home/xinruwang/comp_robot_ws/install/tf_demos/share/ament_index
+[0.958s] creating /home/xinruwang/comp_robot_ws/install/tf_demos/share/ament_index/resource_index
+[0.958s] creating /home/xinruwang/comp_robot_ws/install/tf_demos/share/ament_index/resource_index/packages
+[0.958s] symbolically linking /home/xinruwang/comp_robot_ws/build/tf_demos/resource/tf_demos -> /home/xinruwang/comp_robot_ws/install/tf_demos/share/ament_index/resource_index/packages
+[0.958s] symbolically linking /home/xinruwang/comp_robot_ws/build/tf_demos/package.xml -> /home/xinruwang/comp_robot_ws/install/tf_demos/share/tf_demos
+[0.958s] symbolically linking /home/xinruwang/comp_robot_ws/build/tf_demos/launch/turtlebot3_slam.launch.py -> /home/xinruwang/comp_robot_ws/install/tf_demos/share/tf_demos
+[0.958s] symbolically linking /home/xinruwang/comp_robot_ws/build/tf_demos/launch/transforms.launch.py -> /home/xinruwang/comp_robot_ws/install/tf_demos/share/tf_demos
+[0.958s] symbolically linking /home/xinruwang/comp_robot_ws/build/tf_demos/launch/turtlebot3_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/tf_demos/share/tf_demos
+[0.965s] symbolically linking /home/xinruwang/comp_robot_ws/build/tf_demos/rviz/tf_demo.rviz -> /home/xinruwang/comp_robot_ws/install/tf_demos/share/tf_demos
+[0.983s] Invoked command in '/home/xinruwang/comp_robot_ws/build/tf_demos' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/tf_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/tf_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/tf_demos/build --no-deps symlink_data

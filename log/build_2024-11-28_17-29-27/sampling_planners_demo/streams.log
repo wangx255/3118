@@ -1,0 +1,157 @@
+[0.008s] Invoking command in '/home/xinruwang/comp_robot_ws/build/sampling_planners_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/sampling_planners_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/sampling_planners_demo
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.393s] -- The CXX compiler identification is GNU 11.4.0
+[0.409s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.676s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.679s] -- Detecting C compile features
+[0.679s] -- Detecting C compile features - done
+[0.693s] -- Detecting CXX compiler ABI info
+[0.937s] -- Detecting CXX compiler ABI info - done
+[0.945s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.948s] -- Detecting CXX compile features
+[0.948s] -- Detecting CXX compile features - done
+[0.963s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.963s] -- Checking for module 'fcl>=0.7.0'
+[1.016s] --   Found fcl, version 0.7.0
+[1.131s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.548s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.738s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.800s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.890s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.894s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.920s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.038s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.072s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.077s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.152s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.157s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.358s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.431s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.498s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.510s] -- Looking for pthread.h
+[2.644s] -- Looking for pthread.h - found
+[2.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.717s] -- Found Threads: TRUE  
+[2.775s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.835s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.904s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.943s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.965s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.155s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.175s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.176s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.176s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.192s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[3.209s] -- Found octomap_msgs: 2.0.0 (/opt/ros/humble/share/octomap_msgs/cmake)
+[3.259s] -- Found octomap_server: 2.3.0 (/opt/ros/humble/share/octomap_server/cmake)
+[3.399s] -- Checking for module 'eigen3'
+[3.425s] --   Found eigen3, version 3.4.0
+[3.497s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.497s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.647s] -- Checking for module 'flann'
+[3.679s] --   Found flann, version 1.9.1
+[3.785s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.785s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.223s] -- Checking for module 'libusb-1.0'
+[6.234s] --   Found libusb-1.0, version 1.0.25
+[6.273s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.273s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.351s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.680s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.693s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.699s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.886s] -- Found Qhull version 8.0.2
+[7.160s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.406s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[7.411s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[7.412s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[7.417s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[7.417s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[7.422s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[7.423s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[7.423s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[7.424s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[7.428s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[7.429s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[7.434s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[7.438s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[7.441s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[7.443s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[7.447s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[7.448s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[7.454s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[7.455s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[7.455s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[7.460s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[7.460s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[7.470s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[7.483s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[7.483s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[7.563s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.684s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.684s] -- Configured cppcheck include dirs: /home/xinruwang/comp_robot_ws/src/sampling_planners_demo/include
+[7.684s] -- Configured cppcheck exclude dirs and/or files: 
+[7.684s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.684s] -- Added test 'lint_cmake' to check CMake code style
+[7.684s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.687s] -- Added test 'uncrustify' to check C / C++ code style
+[7.692s] -- Configured uncrustify additional arguments: 
+[7.692s] -- Added test 'xmllint' to check XML markup files
+[7.696s] -- Configuring done
+[7.756s] -- Generating done
+[7.759s] -- Build files have been written to: /home/xinruwang/comp_robot_ws/build/sampling_planners_demo
+[7.778s] Invoked command in '/home/xinruwang/comp_robot_ws/build/sampling_planners_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/sampling_planners_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/sampling_planners_demo
+[7.792s] Invoking command in '/home/xinruwang/comp_robot_ws/build/sampling_planners_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/sampling_planners_demo -- -j2 -l2
+[7.933s] [ 66%] [32mBuilding CXX object CMakeFiles/ompl_planning_demo.dir/src/state_validity_checker_octomap_fcl_R2.cpp.o[0m
+[7.933s] [ 66%] [32mBuilding CXX object CMakeFiles/ompl_planning_demo.dir/src/planning_framework_main.cpp.o[0m
+[11.388s] In file included from [01m[K/home/xinruwang/comp_robot_ws/src/sampling_planners_demo/src/planning_framework_main.cpp:30[m[K:
+[11.388s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[11.388s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[11.388s]       |  [01;35m[K^~~~~~~[m[K
+[14.076s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[14.076s]                  from [01m[K/home/xinruwang/comp_robot_ws/src/sampling_planners_demo/src/planning_framework_main.cpp:6[m[K:
+[14.076s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[14.076s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[14.076s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[26.204s] [01m[K/home/xinruwang/comp_robot_ws/src/sampling_planners_demo/src/planning_framework_main.cpp:[m[K In member function ‘[01m[Kvoid PlannFramework::planningCallback()[m[K’:
+[26.205s] [01m[K/home/xinruwang/comp_robot_ws/src/sampling_planners_demo/src/planning_framework_main.cpp:562:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ompl::base::State*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.205s]   562 |             for (int i = 0; [01;35m[Ki < path_states.size()[m[K; i++)
+[26.206s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[55.820s] [100%] [32m[1mLinking CXX executable ompl_planning_demo[0m
+[57.600s] [100%] Built target ompl_planning_demo
+[57.623s] Invoked command in '/home/xinruwang/comp_robot_ws/build/sampling_planners_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/sampling_planners_demo -- -j2 -l2
+[57.644s] Invoking command in '/home/xinruwang/comp_robot_ws/build/sampling_planners_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/sampling_planners_demo
+[57.662s] -- Install configuration: ""
+[57.662s] -- Execute custom install script
+[57.662s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/lib/sampling_planners_demo/navigator_rrt.py
+[57.662s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/lib/sampling_planners_demo/navigator_rrt_star.py
+[57.666s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/lib/sampling_planners_demo/online_navigator.py
+[57.674s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/launch/goto_ompl_demo.launch.py
+[57.682s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/launch/goto_online_demo.launch.py
+[57.689s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/launch/goto_rrt_demo.launch.py
+[57.698s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/launch/goto_rrt_star_demo.launch.py
+[57.710s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/config/ompl_params.yaml
+[57.714s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/config/online_params.yaml
+[57.724s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/config/rrt_params.yaml
+[57.733s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/config/rrt_star_params.yaml
+[57.741s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/lib/sampling_planners_demo/ompl_planning_demo
+[57.749s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/ament_index/resource_index/package_run_dependencies/sampling_planners_demo
+[57.759s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/ament_index/resource_index/parent_prefix_path/sampling_planners_demo
+[57.766s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/environment/ament_prefix_path.sh
+[57.775s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/environment/ament_prefix_path.dsv
+[57.783s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/environment/path.sh
+[57.792s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/environment/path.dsv
+[57.799s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/local_setup.bash
+[57.808s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/local_setup.sh
+[57.816s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/local_setup.zsh
+[57.828s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/local_setup.dsv
+[57.836s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/package.dsv
+[57.844s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/ament_index/resource_index/packages/sampling_planners_demo
+[57.853s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/cmake/sampling_planners_demoConfig.cmake
+[57.860s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/cmake/sampling_planners_demoConfig-version.cmake
+[57.868s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/sampling_planners_demo/share/sampling_planners_demo/package.xml
+[57.881s] Invoked command in '/home/xinruwang/comp_robot_ws/build/sampling_planners_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/sampling_planners_demo

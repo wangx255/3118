@@ -1,0 +1,30 @@
+[0.585s] Invoking command in '/home/xinruwang/comp_robot_ws/build/survey_missions': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/survey_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/survey_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/survey_missions/build --no-deps symlink_data
+[0.802s] running develop
+[0.802s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.802s]   warnings.warn(
+[0.940s] running egg_info
+[0.941s] creating survey_missions.egg-info
+[0.941s] writing survey_missions.egg-info/PKG-INFO
+[0.941s] writing dependency_links to survey_missions.egg-info/dependency_links.txt
+[0.942s] writing entry points to survey_missions.egg-info/entry_points.txt
+[0.942s] writing requirements to survey_missions.egg-info/requires.txt
+[0.942s] writing top-level names to survey_missions.egg-info/top_level.txt
+[0.943s] writing manifest file 'survey_missions.egg-info/SOURCES.txt'
+[0.954s] reading manifest file 'survey_missions.egg-info/SOURCES.txt'
+[0.955s] writing manifest file 'survey_missions.egg-info/SOURCES.txt'
+[0.957s] running build_ext
+[0.957s] Creating /home/xinruwang/comp_robot_ws/install/survey_missions/lib/python3.10/site-packages/survey-missions.egg-link (link to .)
+[0.958s] Installing mission_handler script to /home/xinruwang/comp_robot_ws/install/survey_missions/lib/survey_missions
+[0.958s] 
+[0.958s] Installed /home/xinruwang/comp_robot_ws/build/survey_missions
+[0.959s] running symlink_data
+[0.959s] creating /home/xinruwang/comp_robot_ws/install/survey_missions/share/ament_index
+[0.959s] creating /home/xinruwang/comp_robot_ws/install/survey_missions/share/ament_index/resource_index
+[0.959s] creating /home/xinruwang/comp_robot_ws/install/survey_missions/share/ament_index/resource_index/packages
+[0.959s] symbolically linking /home/xinruwang/comp_robot_ws/build/survey_missions/resource/survey_missions -> /home/xinruwang/comp_robot_ws/install/survey_missions/share/ament_index/resource_index/packages
+[0.960s] symbolically linking /home/xinruwang/comp_robot_ws/build/survey_missions/package.xml -> /home/xinruwang/comp_robot_ws/install/survey_missions/share/survey_missions
+[0.960s] creating /home/xinruwang/comp_robot_ws/install/survey_missions/share/survey_missions/launch
+[0.960s] symbolically linking /home/xinruwang/comp_robot_ws/build/survey_missions/launch/survey_environment.launch.py -> /home/xinruwang/comp_robot_ws/install/survey_missions/share/survey_missions/launch
+[0.960s] creating /home/xinruwang/comp_robot_ws/install/survey_missions/share/survey_missions/config
+[0.960s] symbolically linking /home/xinruwang/comp_robot_ws/build/survey_missions/config/survey_waypoints_x.yaml -> /home/xinruwang/comp_robot_ws/install/survey_missions/share/survey_missions/config
+[0.987s] Invoked command in '/home/xinruwang/comp_robot_ws/build/survey_missions' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/survey_missions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/survey_missions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/survey_missions/build --no-deps symlink_data

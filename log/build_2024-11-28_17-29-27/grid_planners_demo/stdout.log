@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating grid_planners_demo.egg-info
+writing grid_planners_demo.egg-info/PKG-INFO
+writing dependency_links to grid_planners_demo.egg-info/dependency_links.txt
+writing entry points to grid_planners_demo.egg-info/entry_points.txt
+writing requirements to grid_planners_demo.egg-info/requires.txt
+writing top-level names to grid_planners_demo.egg-info/top_level.txt
+writing manifest file 'grid_planners_demo.egg-info/SOURCES.txt'
+reading manifest file 'grid_planners_demo.egg-info/SOURCES.txt'
+writing manifest file 'grid_planners_demo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/python3.10/site-packages/grid-planners-demo.egg-link (link to .)
+Installing navigator_astar script to /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/grid_planners_demo
+Installing navigator_dijkstra script to /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/grid_planners_demo
+Installing navigator_dstar_lite script to /home/xinruwang/comp_robot_ws/install/grid_planners_demo/lib/grid_planners_demo
+
+Installed /home/xinruwang/comp_robot_ws/build/grid_planners_demo
+running symlink_data
+creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index
+creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index/resource_index
+creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/resource/grid_planners_demo -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/package.xml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo
+creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/launch/goto_astar_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/launch/goto_dstar_lite_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/launch/goto_dijkstra_demo.launch.py -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/launch
+creating /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/config/dijkstra_params.yaml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/config/dstar_lite_params.yaml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config
+symbolically linking /home/xinruwang/comp_robot_ws/build/grid_planners_demo/config/astar_params.yaml -> /home/xinruwang/comp_robot_ws/install/grid_planners_demo/share/grid_planners_demo/config

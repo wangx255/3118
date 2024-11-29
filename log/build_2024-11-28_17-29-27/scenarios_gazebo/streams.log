@@ -1,0 +1,54 @@
+[0.007s] Invoking command in '/home/xinruwang/comp_robot_ws/build/scenarios_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/scenarios_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/scenarios_gazebo
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.207s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.217s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.308s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.576s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.685s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.686s] -- Added test 'lint_cmake' to check CMake code style
+[0.687s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.688s] -- Added test 'xmllint' to check XML markup files
+[0.691s] -- Configuring done
+[0.692s] -- Generating done
+[0.692s] -- Build files have been written to: /home/xinruwang/comp_robot_ws/build/scenarios_gazebo
+[0.697s] Invoked command in '/home/xinruwang/comp_robot_ws/build/scenarios_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/scenarios_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/scenarios_gazebo
+[0.697s] Invoking command in '/home/xinruwang/comp_robot_ws/build/scenarios_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/scenarios_gazebo -- -j2 -l2
+[0.732s] Invoked command in '/home/xinruwang/comp_robot_ws/build/scenarios_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/scenarios_gazebo -- -j2 -l2
+[0.759s] Invoking command in '/home/xinruwang/comp_robot_ws/build/scenarios_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/scenarios_gazebo
+[0.763s] -- Install configuration: ""
+[0.763s] -- Execute custom install script
+[0.764s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/launch/scenario1.launch.py
+[0.772s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/launch/scenario2.launch.py
+[0.780s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/launch/scenario3.launch.py
+[0.788s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/launch/tb3_spawn.launch.py
+[0.797s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/worlds/world01.world
+[0.805s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/worlds/world02.world
+[0.815s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/worlds/world03.world
+[0.823s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/worlds/world04.world
+[0.834s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/ament_index/resource_index/package_run_dependencies/scenarios_gazebo
+[0.847s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/ament_index/resource_index/parent_prefix_path/scenarios_gazebo
+[0.856s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/environment/ament_prefix_path.sh
+[0.865s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/environment/ament_prefix_path.dsv
+[0.874s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/environment/path.sh
+[0.886s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/environment/path.dsv
+[0.892s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/local_setup.bash
+[0.901s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/local_setup.sh
+[0.909s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/local_setup.zsh
+[0.917s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/local_setup.dsv
+[0.925s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/package.dsv
+[0.934s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/ament_index/resource_index/packages/scenarios_gazebo
+[0.941s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/cmake/scenarios_gazeboConfig.cmake
+[0.951s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/cmake/scenarios_gazeboConfig-version.cmake
+[0.962s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/scenarios_gazebo/share/scenarios_gazebo/package.xml
+[0.970s] Invoked command in '/home/xinruwang/comp_robot_ws/build/scenarios_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/scenarios_gazebo

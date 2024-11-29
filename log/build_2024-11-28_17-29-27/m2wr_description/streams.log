@@ -1,0 +1,45 @@
+[1.046s] Invoking command in '/home/xinruwang/comp_robot_ws/build/m2wr_description': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/m2wr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/m2wr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/m2wr_description/build --no-deps symlink_data
+[1.449s] running develop
+[1.449s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.449s]   warnings.warn(
+[1.718s] running egg_info
+[1.718s] creating m2wr_description.egg-info
+[1.718s] writing m2wr_description.egg-info/PKG-INFO
+[1.719s] writing dependency_links to m2wr_description.egg-info/dependency_links.txt
+[1.720s] writing entry points to m2wr_description.egg-info/entry_points.txt
+[1.720s] writing requirements to m2wr_description.egg-info/requires.txt
+[1.720s] writing top-level names to m2wr_description.egg-info/top_level.txt
+[1.721s] writing manifest file 'm2wr_description.egg-info/SOURCES.txt'
+[1.723s] reading manifest file 'm2wr_description.egg-info/SOURCES.txt'
+[1.724s] writing manifest file 'm2wr_description.egg-info/SOURCES.txt'
+[1.726s] running build_ext
+[1.727s] Creating /home/xinruwang/comp_robot_ws/install/m2wr_description/lib/python3.10/site-packages/m2wr-description.egg-link (link to .)
+[1.728s] Installing groundtruth_broadcaster script to /home/xinruwang/comp_robot_ws/install/m2wr_description/lib/m2wr_description
+[1.728s] Installing tf_broadcaster script to /home/xinruwang/comp_robot_ws/install/m2wr_description/lib/m2wr_description
+[1.729s] 
+[1.729s] Installed /home/xinruwang/comp_robot_ws/build/m2wr_description
+[1.729s] running symlink_data
+[1.729s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index
+[1.729s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index/resource_index
+[1.729s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index/resource_index/packages
+[1.730s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/resource/m2wr_description -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/ament_index/resource_index/packages
+[1.730s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/package.xml -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description
+[1.730s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+[1.730s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/gazebo.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+[1.731s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/spawn.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+[1.731s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/gazebo_odom.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+[1.731s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/launch/spawn_odom.launch.py -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/launch
+[1.731s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/config
+[1.731s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/config/controllers.yaml -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/config
+[1.732s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.732s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/materials.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.732s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.733s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/macros.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.733s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr_manual.xacro -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.733s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr_manual.gazebo -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.733s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/urdf/m2wr.gazebo -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/urdf
+[1.733s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/worlds
+[1.735s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/worlds/sphere_example.world -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/worlds
+[1.735s] creating /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/rviz
+[1.735s] symbolically linking /home/xinruwang/comp_robot_ws/build/m2wr_description/rviz/test_odom.rviz -> /home/xinruwang/comp_robot_ws/install/m2wr_description/share/m2wr_description/rviz
+[1.762s] Invoked command in '/home/xinruwang/comp_robot_ws/build/m2wr_description' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/m2wr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/m2wr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/m2wr_description/build --no-deps symlink_data

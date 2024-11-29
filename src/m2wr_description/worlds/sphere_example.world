@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <world name="default">
+        <!-- A global light source -->
+        <include>
+            <uri>model://sun</uri>
+        </include>
+
+        <!-- A ground plane -->
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+
+        <model name="unit_sphere">
+            <pose>2 2 1 0 0 0</pose>
+            <static>false</static>
+            <link name="link">
+                <inertial>
+                    <mass>1.0</mass>
+                    <inertia>
+                        <ixx>0.083</ixx>
+                        <ixy>0.0</ixy>
+                        <ixz>0.0</ixz>
+                        <iyy>0.083</iyy>
+                        <iyz>0.0</iyz>
+                        <izz>0.083</izz>
+                    </inertia>
+                </inertial>
+                <collision name="collision">
+                    <geometry>
+                        <sphere>
+                            <radius>0.5</radius>
+                        </sphere>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <sphere>
+                            <radius>0.5</radius>
+                        </sphere>
+                    </geometry>
+                </visual>
+            </link>
+        </model>
+
+        <plugin name="gazebo_ros" filename="libgazebo_ros_state.so">
+            <ros>
+                <namespace>/gazebo</namespace>
+            </ros>
+        </plugin>
+
+    </world>
+</sdf>

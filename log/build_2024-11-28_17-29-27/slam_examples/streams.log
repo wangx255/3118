@@ -1,0 +1,100 @@
+[0.009s] Invoking command in '/home/xinruwang/comp_robot_ws/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/slam_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/slam_examples
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.279s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.546s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.651s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.654s] -- Added test 'lint_cmake' to check CMake code style
+[0.655s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.655s] -- Added test 'xmllint' to check XML markup files
+[0.657s] -- Configuring done
+[0.662s] -- Generating done
+[0.662s] -- Build files have been written to: /home/xinruwang/comp_robot_ws/build/slam_examples
+[0.667s] Invoked command in '/home/xinruwang/comp_robot_ws/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/slam_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/slam_examples
+[0.673s] Invoking command in '/home/xinruwang/comp_robot_ws/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/slam_examples -- -j2 -l2
+[0.706s] Invoked command in '/home/xinruwang/comp_robot_ws/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/slam_examples -- -j2 -l2
+[0.746s] Invoking command in '/home/xinruwang/comp_robot_ws/build/slam_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/slam_examples
+[0.746s] -- Install configuration: ""
+[0.747s] -- Execute custom install script
+[0.749s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/amcl.launch.py
+[0.755s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/amcl_real.launch
+[0.765s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/amcl_real.launch.py
+[0.774s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/gmapping.launch.py
+[0.783s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/gmapping_online.launch.py
+[0.792s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/gmapping_real.launch.py
+[0.803s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/octomap.launch.py
+[0.810s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/octomap_offline.launch.py
+[0.818s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/octomap_online.launch.py
+[0.826s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/robot_state_publisher.launch.py
+[0.834s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/spawn_turtlebot3.launch.py
+[0.842s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/turtlebot3_house.launch.py
+[0.852s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/turtlebot_amcl_demo.launch.py
+[0.860s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/turtlebot_gmapping_demo.launch.py
+[0.868s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/turtlebot_octomap_demo.launch.py
+[0.878s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/turtlebot_octomap_offline_demo.launch.py
+[0.887s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/launch/turtlebot_octomap_online_demo.launch.py
+[0.894s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/config/amcl_params.yaml
+[0.902s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/config/amcl_real_params.yaml
+[0.910s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/config/gmapping_params.yaml
+[0.918s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/config/gmapping_real_params.yaml
+[0.926s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/config/octomap_params.yaml
+[0.933s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/config/online_params.yaml
+[0.941s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.025.bt
+[0.949s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.05.bt
+[0.956s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.075.bt
+[0.967s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.085.bt
+[0.976s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.095.bt
+[0.984s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.1.bt
+[0.993s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.15.bt
+[1.001s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.2.bt
+[1.009s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.25.bt
+[1.018s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.35.bt
+[1.025s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.4.bt
+[1.034s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.5.bt
+[1.042s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/map0.8.bt
+[1.050s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/mymap.pgm
+[1.057s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/maps/mymap.yaml
+[1.066s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/rviz/coursework.rviz
+[1.076s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/rviz/nav_demo.rviz
+[1.084s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/rviz/slam_demo.rviz
+[1.091s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/urdf/turtlebot3_burger.urdf
+[1.099s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/worlds/turtlebot3_house.world
+[1.106s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/worlds/turtlebot3_housemod.world
+[1.114s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_burger/model-1_4.sdf
+[1.123s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_burger/model.config
+[1.134s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_burger/model.sdf
+[1.140s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/burger_base.dae
+[1.148s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/lds.dae
+[1.156s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/r200.dae
+[1.173s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/tire.dae
+[1.176s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/waffle_base.dae
+[1.186s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/meshes/waffle_pi_base.dae
+[1.196s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/models/turtlebot3_common/model.config
+[1.203s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/ament_index/resource_index/package_run_dependencies/slam_examples
+[1.211s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/ament_index/resource_index/parent_prefix_path/slam_examples
+[1.220s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/environment/ament_prefix_path.sh
+[1.228s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/environment/ament_prefix_path.dsv
+[1.237s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/environment/path.sh
+[1.245s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/environment/path.dsv
+[1.253s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/local_setup.bash
+[1.265s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/local_setup.sh
+[1.274s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/local_setup.zsh
+[1.283s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/local_setup.dsv
+[1.296s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/package.dsv
+[1.311s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/ament_index/resource_index/packages/slam_examples
+[1.314s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/cmake/slam_examplesConfig.cmake
+[1.322s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/cmake/slam_examplesConfig-version.cmake
+[1.331s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/slam_examples/share/slam_examples/package.xml
+[1.345s] Invoked command in '/home/xinruwang/comp_robot_ws/build/slam_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/slam_examples

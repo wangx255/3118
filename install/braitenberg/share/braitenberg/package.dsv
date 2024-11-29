@@ -1,0 +1,9 @@
+source;share/braitenberg/hook/pythonpath.ps1
+source;share/braitenberg/hook/pythonpath.dsv
+source;share/braitenberg/hook/pythonpath.sh
+source;share/braitenberg/hook/ament_prefix_path.ps1
+source;share/braitenberg/hook/ament_prefix_path.dsv
+source;share/braitenberg/hook/ament_prefix_path.sh
+source;../../build/braitenberg/share/braitenberg/hook/pythonpath_develop.ps1
+source;../../build/braitenberg/share/braitenberg/hook/pythonpath_develop.dsv
+source;../../build/braitenberg/share/braitenberg/hook/pythonpath_develop.sh

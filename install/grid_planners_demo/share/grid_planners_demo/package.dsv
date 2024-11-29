@@ -1,0 +1,9 @@
+source;share/grid_planners_demo/hook/pythonpath.ps1
+source;share/grid_planners_demo/hook/pythonpath.dsv
+source;share/grid_planners_demo/hook/pythonpath.sh
+source;share/grid_planners_demo/hook/ament_prefix_path.ps1
+source;share/grid_planners_demo/hook/ament_prefix_path.dsv
+source;share/grid_planners_demo/hook/ament_prefix_path.sh
+source;../../build/grid_planners_demo/share/grid_planners_demo/hook/pythonpath_develop.ps1
+source;../../build/grid_planners_demo/share/grid_planners_demo/hook/pythonpath_develop.dsv
+source;../../build/grid_planners_demo/share/grid_planners_demo/hook/pythonpath_develop.sh

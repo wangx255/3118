@@ -1,0 +1,1 @@
+/home/xinruwang/comp_robot_ws/src/scenarios_gazebo/launch/tb3_spawn.launch.py

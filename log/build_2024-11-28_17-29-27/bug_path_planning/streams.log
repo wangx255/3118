@@ -1,0 +1,34 @@
+[0.842s] Invoking command in '/home/xinruwang/comp_robot_ws/build/bug_path_planning': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/bug_path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/bug_path_planning/build --no-deps symlink_data
+[1.282s] running develop
+[1.285s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.285s]   warnings.warn(
+[1.526s] running egg_info
+[1.527s] creating bug_path_planning.egg-info
+[1.527s] writing bug_path_planning.egg-info/PKG-INFO
+[1.528s] writing dependency_links to bug_path_planning.egg-info/dependency_links.txt
+[1.528s] writing entry points to bug_path_planning.egg-info/entry_points.txt
+[1.528s] writing requirements to bug_path_planning.egg-info/requires.txt
+[1.530s] writing top-level names to bug_path_planning.egg-info/top_level.txt
+[1.530s] writing manifest file 'bug_path_planning.egg-info/SOURCES.txt'
+[1.531s] reading manifest file 'bug_path_planning.egg-info/SOURCES.txt'
+[1.532s] writing manifest file 'bug_path_planning.egg-info/SOURCES.txt'
+[1.533s] running build_ext
+[1.533s] Creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/python3.10/site-packages/bug-path-planning.egg-link (link to .)
+[1.535s] Installing boundary_following script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+[1.535s] Installing bug1 script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+[1.535s] Installing bug2 script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+[1.535s] Installing bug_tangent script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+[1.536s] Installing motion_to_goal script to /home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/bug_path_planning
+[1.536s] 
+[1.536s] Installed /home/xinruwang/comp_robot_ws/build/bug_path_planning
+[1.536s] running symlink_data
+[1.536s] creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index
+[1.536s] creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index/resource_index
+[1.536s] creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index/resource_index/packages
+[1.537s] symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/resource/bug_path_planning -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/ament_index/resource_index/packages
+[1.537s] symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/package.xml -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning
+[1.537s] creating /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+[1.537s] symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/launch/bug2.launch.py -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+[1.537s] symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/launch/bug1.launch.py -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+[1.537s] symbolically linking /home/xinruwang/comp_robot_ws/build/bug_path_planning/launch/bug_tangent.launch.py -> /home/xinruwang/comp_robot_ws/install/bug_path_planning/share/bug_path_planning/launch
+[1.571s] Invoked command in '/home/xinruwang/comp_robot_ws/build/bug_path_planning' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/bug_path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/bug_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/bug_path_planning/build --no-deps symlink_data

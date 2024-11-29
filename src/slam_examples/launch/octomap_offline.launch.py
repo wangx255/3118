@@ -1,0 +1,42 @@
+from launch import LaunchDescription
+import launch_ros.actions
+from launch_ros.substitutions import FindPackageShare
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
+
+
+def generate_launch_description():
+
+    slam_examples_dir = FindPackageShare(package="slam_examples").find("slam_examples")
+
+    declare_octomap_res = DeclareLaunchArgument(
+        name="octomap_res",
+        default_value="0.05",
+        description="Resolution of octomap to load.",
+    )
+
+    return LaunchDescription(
+        [
+            declare_octomap_res,
+            launch_ros.actions.Node(
+                package="octomap_server",
+                executable="octomap_server_node",
+                name="octomap_server",
+                output="screen",
+                parameters=[
+                    slam_examples_dir + "/config/octomap_params.yaml",
+                    {
+                        "frame_id": "map",
+                        "use_height_map": True,
+                        "octomap_path": [
+                            slam_examples_dir,
+                            "/maps/map",
+                            LaunchConfiguration("octomap_res"),
+                            ".bt",
+                        ],
+                    },
+                ],
+                remappings=[("/cloud_in", "/depth_camera/depth/points")],
+            ),
+        ]
+    )

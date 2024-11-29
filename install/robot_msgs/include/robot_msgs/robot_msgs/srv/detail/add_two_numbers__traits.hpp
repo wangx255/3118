@@ -1,0 +1,1 @@
+/home/xinruwang/comp_robot_ws/build/robot_msgs/rosidl_generator_cpp/robot_msgs/srv/detail/add_two_numbers__traits.hpp

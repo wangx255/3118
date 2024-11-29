@@ -1,0 +1,27 @@
+[0.975s] Invoking command in '/home/xinruwang/comp_robot_ws/build/robot_service': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/robot_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/robot_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/robot_service/build --no-deps symlink_data
+[1.380s] running develop
+[1.381s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.381s]   warnings.warn(
+[1.579s] running egg_info
+[1.579s] creating robot_service.egg-info
+[1.580s] writing robot_service.egg-info/PKG-INFO
+[1.580s] writing dependency_links to robot_service.egg-info/dependency_links.txt
+[1.581s] writing entry points to robot_service.egg-info/entry_points.txt
+[1.582s] writing requirements to robot_service.egg-info/requires.txt
+[1.582s] writing top-level names to robot_service.egg-info/top_level.txt
+[1.582s] writing manifest file 'robot_service.egg-info/SOURCES.txt'
+[1.584s] reading manifest file 'robot_service.egg-info/SOURCES.txt'
+[1.585s] writing manifest file 'robot_service.egg-info/SOURCES.txt'
+[1.588s] running build_ext
+[1.589s] Creating /home/xinruwang/comp_robot_ws/install/robot_service/lib/python3.10/site-packages/robot-service.egg-link (link to .)
+[1.590s] Installing add_two_numbers_client script to /home/xinruwang/comp_robot_ws/install/robot_service/lib/robot_service
+[1.590s] Installing add_two_numbers_service script to /home/xinruwang/comp_robot_ws/install/robot_service/lib/robot_service
+[1.591s] 
+[1.591s] Installed /home/xinruwang/comp_robot_ws/build/robot_service
+[1.591s] running symlink_data
+[1.591s] creating /home/xinruwang/comp_robot_ws/install/robot_service/share/ament_index
+[1.591s] creating /home/xinruwang/comp_robot_ws/install/robot_service/share/ament_index/resource_index
+[1.592s] creating /home/xinruwang/comp_robot_ws/install/robot_service/share/ament_index/resource_index/packages
+[1.592s] symbolically linking /home/xinruwang/comp_robot_ws/build/robot_service/resource/robot_service -> /home/xinruwang/comp_robot_ws/install/robot_service/share/ament_index/resource_index/packages
+[1.593s] symbolically linking /home/xinruwang/comp_robot_ws/build/robot_service/package.xml -> /home/xinruwang/comp_robot_ws/install/robot_service/share/robot_service
+[1.623s] Invoked command in '/home/xinruwang/comp_robot_ws/build/robot_service' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/robot_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/robot_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/robot_service/build --no-deps symlink_data

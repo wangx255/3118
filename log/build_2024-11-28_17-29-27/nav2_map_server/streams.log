@@ -1,0 +1,153 @@
+[0.018s] Invoking command in '/home/xinruwang/comp_robot_ws/build/nav2_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/nav2_map_server
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.388s] -- Detecting C compile features
+[0.393s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.485s] -- Detecting CXX compile features
+[0.486s] -- Detecting CXX compile features - done
+[0.500s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.667s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.726s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.770s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[0.774s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.850s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.859s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.874s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.895s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.006s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.013s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.135s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.166s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.238s] -- Looking for pthread.h
+[1.318s] -- Looking for pthread.h - found
+[1.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.393s] -- Found Threads: TRUE  
+[1.484s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.517s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.563s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.611s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.694s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.718s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.726s] -- Found nav2_util: 1.1.16 (/opt/ros/humble/share/nav2_util/cmake)
+[1.816s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.819s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.819s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.867s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[1.872s] -- Setting build type to Release as none was specified.
+[2.025s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.203s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.214s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.228s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.245s] -- Configured cppcheck include dirs: /home/xinruwang/comp_robot_ws/src/nav2_map_server/include
+[2.245s] -- Configured cppcheck exclude dirs and/or files: 
+[2.247s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.248s] -- Configured cpplint exclude dirs and/or files: 
+[2.249s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.251s] -- Added test 'lint_cmake' to check CMake code style
+[2.252s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.255s] -- Added test 'uncrustify' to check C / C++ code style
+[2.255s] -- Configured uncrustify additional arguments: 
+[2.256s] -- Added test 'xmllint' to check XML markup files
+[2.265s] -- Configuring done
+[2.556s] -- Generating done
+[2.560s] -- Build files have been written to: /home/xinruwang/comp_robot_ws/build/nav2_map_server
+[2.576s] Invoked command in '/home/xinruwang/comp_robot_ws/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/nav2_map_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/nav2_map_server
+[2.584s] Invoking command in '/home/xinruwang/comp_robot_ws/build/nav2_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/nav2_map_server -- -j2 -l2
+[2.639s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.654s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[3.000s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[4.194s] [ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.244s] [ 11%] Built target gtest_main
+[4.263s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.656s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[15.018s] [ 16%] Built target map_io
+[15.080s] [ 19%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[17.934s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.025s] [ 22%] Built target gtest
+[18.081s] [ 25%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[26.431s] [ 27%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[26.565s] [ 30%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[26.904s] [ 33%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[26.935s] [ 33%] Built target test_map_saver_publisher
+[26.978s] [ 36%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[42.077s] [ 38%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[42.309s] [ 41%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[42.637s] [ 41%] Built target test_map_saver_cli
+[51.016s] [ 44%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[61.206s] [ 47%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[61.695s] [ 47%] Built target map_server_core
+[61.759s] [ 50%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[70.640s] [ 52%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[70.762s] [ 55%] [32m[1mLinking CXX executable test_map_io[0m
+[70.985s] [ 55%] Built target test_map_io
+[71.007s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[73.943s] [ 61%] [32m[1mLinking CXX executable map_server[0m
+[74.225s] [ 61%] Built target map_server
+[74.245s] [ 63%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[77.416s] [ 66%] [32m[1mLinking CXX executable map_saver_cli[0m
+[77.706s] [ 66%] Built target map_saver_cli
+[77.730s] [ 69%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[80.809s] [ 72%] [32m[1mLinking CXX executable map_saver_server[0m
+[81.101s] [ 72%] Built target map_saver_server
+[81.124s] [ 75%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[84.046s] [ 77%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[84.329s] [ 77%] Built target costmap_filter_info_server
+[84.348s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[95.211s] [ 83%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[95.526s] [ 83%] Built target test_costmap_filter_info_server
+[95.546s] [ 86%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[102.376s] [ 88%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[102.480s] [ 91%] [32m[1mLinking CXX executable test_map_server_node[0m
+[102.688s] [ 91%] Built target test_map_server_node
+[102.708s] [ 94%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[108.438s] [ 97%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[108.582s] [100%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[108.827s] [100%] Built target test_map_saver_node
+[108.839s] Invoked command in '/home/xinruwang/comp_robot_ws/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/nav2_map_server -- -j2 -l2
+[108.896s] Invoking command in '/home/xinruwang/comp_robot_ws/build/nav2_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/nav2_map_server
+[108.908s] -- Install configuration: "Release"
+[108.908s] -- Execute custom install script
+[108.908s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/lib/libmap_server_core.so
+[108.915s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/lib/libmap_io.so
+[108.929s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[108.936s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[108.945s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[108.953s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[108.961s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[108.969s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[108.977s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[108.986s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[108.994s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[109.003s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[109.013s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[109.027s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[109.033s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[109.043s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[109.051s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[109.060s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[109.068s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[109.075s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[109.084s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[109.092s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[109.103s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[109.113s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[109.124s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[109.132s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[109.142s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[109.151s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[109.160s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[109.168s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[109.176s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[109.185s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[109.195s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[109.215s] Invoked command in '/home/xinruwang/comp_robot_ws/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/nav2_map_server

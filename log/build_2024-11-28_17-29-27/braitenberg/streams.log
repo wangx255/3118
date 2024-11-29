@@ -1,0 +1,26 @@
+[0.881s] Invoking command in '/home/xinruwang/comp_robot_ws/build/braitenberg': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/braitenberg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/braitenberg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/braitenberg/build --no-deps symlink_data
+[1.268s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.268s]   warnings.warn(
+[1.269s] running develop
+[1.455s] running egg_info
+[1.455s] creating braitenberg.egg-info
+[1.456s] writing braitenberg.egg-info/PKG-INFO
+[1.456s] writing dependency_links to braitenberg.egg-info/dependency_links.txt
+[1.456s] writing entry points to braitenberg.egg-info/entry_points.txt
+[1.456s] writing requirements to braitenberg.egg-info/requires.txt
+[1.456s] writing top-level names to braitenberg.egg-info/top_level.txt
+[1.457s] writing manifest file 'braitenberg.egg-info/SOURCES.txt'
+[1.458s] reading manifest file 'braitenberg.egg-info/SOURCES.txt'
+[1.459s] writing manifest file 'braitenberg.egg-info/SOURCES.txt'
+[1.461s] running build_ext
+[1.461s] Creating /home/xinruwang/comp_robot_ws/install/braitenberg/lib/python3.10/site-packages/braitenberg.egg-link (link to .)
+[1.462s] Installing braitenberg script to /home/xinruwang/comp_robot_ws/install/braitenberg/lib/braitenberg
+[1.462s] 
+[1.462s] Installed /home/xinruwang/comp_robot_ws/build/braitenberg
+[1.463s] running symlink_data
+[1.463s] creating /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index
+[1.463s] creating /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index/resource_index
+[1.463s] creating /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index/resource_index/packages
+[1.463s] symbolically linking /home/xinruwang/comp_robot_ws/build/braitenberg/resource/braitenberg -> /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index/resource_index/packages
+[1.464s] symbolically linking /home/xinruwang/comp_robot_ws/build/braitenberg/package.xml -> /home/xinruwang/comp_robot_ws/install/braitenberg/share/braitenberg
+[1.499s] Invoked command in '/home/xinruwang/comp_robot_ws/build/braitenberg' returned '0': PYTHONPATH=/home/xinruwang/comp_robot_ws/build/braitenberg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinruwang/comp_robot_ws/install/braitenberg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/xinruwang/comp_robot_ws/build/braitenberg/build --no-deps symlink_data

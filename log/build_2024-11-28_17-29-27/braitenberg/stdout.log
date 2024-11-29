@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating braitenberg.egg-info
+writing braitenberg.egg-info/PKG-INFO
+writing dependency_links to braitenberg.egg-info/dependency_links.txt
+writing entry points to braitenberg.egg-info/entry_points.txt
+writing requirements to braitenberg.egg-info/requires.txt
+writing top-level names to braitenberg.egg-info/top_level.txt
+writing manifest file 'braitenberg.egg-info/SOURCES.txt'
+reading manifest file 'braitenberg.egg-info/SOURCES.txt'
+writing manifest file 'braitenberg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xinruwang/comp_robot_ws/install/braitenberg/lib/python3.10/site-packages/braitenberg.egg-link (link to .)
+Installing braitenberg script to /home/xinruwang/comp_robot_ws/install/braitenberg/lib/braitenberg
+
+Installed /home/xinruwang/comp_robot_ws/build/braitenberg
+running symlink_data
+creating /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index
+creating /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index/resource_index
+creating /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/braitenberg/resource/braitenberg -> /home/xinruwang/comp_robot_ws/install/braitenberg/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/braitenberg/package.xml -> /home/xinruwang/comp_robot_ws/install/braitenberg/share/braitenberg

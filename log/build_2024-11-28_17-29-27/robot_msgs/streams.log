@@ -1,0 +1,201 @@
+[0.014s] Invoking command in '/home/xinruwang/comp_robot_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/robot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/robot_msgs
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.456s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.456s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.681s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.693s] -- Detecting CXX compile features
+[0.694s] -- Detecting CXX compile features - done
+[0.697s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.141s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.259s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.337s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.550s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.584s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.685s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.437s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.148s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.157s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.238s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.238s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.238s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.238s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.308s] -- Found PythonExtra: .so  
+[4.498s] -- Added test 'lint_cmake' to check CMake code style
+[4.499s] -- Added test 'xmllint' to check XML markup files
+[4.517s] -- Configuring done
+[4.579s] -- Generating done
+[4.591s] -- Build files have been written to: /home/xinruwang/comp_robot_ws/build/robot_msgs
+[4.598s] Invoked command in '/home/xinruwang/comp_robot_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake /home/xinruwang/comp_robot_ws/src/robot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xinruwang/comp_robot_ws/install/robot_msgs
+[4.603s] Invoking command in '/home/xinruwang/comp_robot_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/robot_msgs -- -j2 -l2
+[4.732s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.755s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.513s] [  6%] Built target robot_msgs__cpp
+[5.608s] [  6%] Built target ament_cmake_python_symlink_robot_msgs
+[5.609s] [  9%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/add_two_numbers__functions.c.o[0m
+[5.630s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.765s] [ 16%] [32m[1mLinking C shared library librobot_msgs__rosidl_generator_c.so[0m
+[5.858s] [ 16%] Built target robot_msgs__rosidl_generator_c
+[5.893s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.136s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/srv/add_two_numbers__type_support.cpp.o[0m
+[6.466s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/srv/detail/dds_fastrtps/add_two_numbers__type_support.cpp.o[0m
+[6.880s] [ 29%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_cpp.so[0m
+[6.959s] [ 29%] Built target robot_msgs__rosidl_typesupport_cpp
+[6.988s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.515s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/srv/detail/add_two_numbers__type_support.cpp.o[0m
+[7.741s] [ 38%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.902s] [ 38%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp
+[8.388s] running egg_info
+[8.389s] creating robot_msgs.egg-info
+[8.389s] writing robot_msgs.egg-info/PKG-INFO
+[8.389s] writing dependency_links to robot_msgs.egg-info/dependency_links.txt
+[8.389s] writing top-level names to robot_msgs.egg-info/top_level.txt
+[8.389s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[8.400s] reading manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[8.400s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[8.446s] [ 38%] Built target ament_cmake_python_build_robot_msgs_egg
+[8.473s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.972s] [ 45%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.034s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msgs/srv/detail/add_two_numbers__type_support_c.cpp.o[0m
+[9.059s] [ 48%] Built target robot_msgs__rosidl_typesupport_introspection_cpp
+[9.076s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.541s] [ 54%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msgs/srv/detail/add_two_numbers__type_support.c.o[0m
+[9.580s] [ 58%] [32m[1mLinking C shared library librobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.658s] [ 58%] Built target robot_msgs__rosidl_typesupport_introspection_c
+[9.683s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.718s] [ 64%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.903s] [ 64%] Built target robot_msgs__rosidl_typesupport_fastrtps_c
+[10.109s] [ 67%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msgs/srv/add_two_numbers__type_support.cpp.o[0m
+[10.180s] [ 70%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_c.so[0m
+[10.260s] [ 70%] Built target robot_msgs__rosidl_typesupport_c
+[10.310s] [ 70%] Built target robot_msgs
+[10.358s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.977s] [ 74%] Built target robot_msgs__py
+[11.026s] [ 77%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_msgs/srv/_add_two_numbers_s.c.o[0m
+[11.268s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/librobot_msgs__rosidl_generator_py.so[0m
+[11.347s] [ 80%] Built target robot_msgs__rosidl_generator_py
+[11.387s] [ 83%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.397s] [ 87%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.541s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.577s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.609s] [ 93%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.650s] [ 96%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.654s] [ 96%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext
+[11.813s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.849s] [100%] Built target robot_msgs__rosidl_typesupport_c__pyext
+[11.886s] Invoked command in '/home/xinruwang/comp_robot_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --build /home/xinruwang/comp_robot_ws/build/robot_msgs -- -j2 -l2
+[12.071s] Invoking command in '/home/xinruwang/comp_robot_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/robot_msgs
+[12.088s] -- Install configuration: ""
+[12.091s] -- Execute custom install script
+[12.091s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_msgs
+[12.113s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.136s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/add_two_numbers.h
+[12.156s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__functions.h
+[12.176s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__struct.h
+[12.196s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__type_support.h
+[12.216s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/library_path.sh
+[12.235s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/library_path.dsv
+[12.257s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.289s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__rosidl_typesupport_fastrtps_c.h
+[12.308s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.330s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__rosidl_typesupport_introspection_c.h
+[12.356s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/add_two_numbers.hpp
+[12.378s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__builder.hpp
+[12.396s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__struct.hpp
+[12.417s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__traits.hpp
+[12.453s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.470s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__rosidl_typesupport_fastrtps_cpp.hpp
+[12.491s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/add_two_numbers__rosidl_typesupport_introspection_cpp.hpp
+[12.512s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/pythonpath.sh
+[12.532s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/pythonpath.dsv
+[12.556s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[12.580s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.596s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.619s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[12.640s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py
+[12.670s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c
+[12.689s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.712s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.733s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/librobot_msgs__rosidl_generator_py.so
+[12.752s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.777s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.795s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.811s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/__init__.py
+[12.835s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_add_two_numbers.py
+[12.855s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_add_two_numbers_s.c
+[12.865s] -- Up-to-date symlink: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.870s] -- Up-to-date symlink: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.871s] -- Up-to-date symlink: /home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.871s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/srv/AddTwoNumbers.idl
+[12.885s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/srv/AddTwoNumbers.srv
+[12.907s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/srv/AddTwoNumbers_Request.msg
+[12.925s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/srv/AddTwoNumbers_Response.msg
+[12.943s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/ament_index/resource_index/package_run_dependencies/robot_msgs
+[12.967s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/ament_index/resource_index/parent_prefix_path/robot_msgs
+[12.987s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.sh
+[13.007s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.dsv
+[13.037s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/path.sh
+[13.058s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/environment/path.dsv
+[13.088s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/local_setup.bash
+[13.096s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/local_setup.sh
+[13.133s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/local_setup.zsh
+[13.153s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/local_setup.dsv
+[13.178s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/package.dsv
+[13.199s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/ament_index/resource_index/packages/robot_msgs
+[13.226s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake-extras.cmake
+[13.254s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.282s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.307s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.332s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.355s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.379s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.402s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig.cmake
+[13.421s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig-version.cmake
+[13.441s] -- Symlinking: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/package.xml
+[13.466s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so
+[13.466s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so" to ""
+[13.467s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so
+[13.467s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.467s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so
+[13.468s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.469s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so
+[13.469s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so" to ""
+[13.469s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.469s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.469s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so
+[13.472s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.472s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so
+[13.472s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so" to ""
+[13.566s] Listing '/home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs'...
+[13.566s] Compiling '/home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py'...
+[13.566s] Listing '/home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv'...
+[13.566s] Compiling '/home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/__init__.py'...
+[13.566s] Compiling '/home/xinruwang/comp_robot_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_add_two_numbers.py'...
+[13.576s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so
+[13.586s] -- Set runtime path of "/home/xinruwang/comp_robot_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so" to ""
+[13.586s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake
+[13.587s] -- Installing: /home/xinruwang/comp_robot_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.604s] Invoked command in '/home/xinruwang/comp_robot_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinruwang/comp_robot_ws/install/tf_demos:/home/xinruwang/comp_robot_ws/install/survey_missions:/home/xinruwang/comp_robot_ws/install/robot_service:/home/xinruwang/comp_robot_ws/install/robot_navigation:/home/xinruwang/comp_robot_ws/install/robot_control:/home/xinruwang/comp_robot_ws/install/path_follower:/home/xinruwang/comp_robot_ws/install/m2wr_description:/home/xinruwang/comp_robot_ws/install/grid_planners_demo:/home/xinruwang/comp_robot_ws/install/bug_path_planning:/home/xinruwang/comp_robot_ws/install/braitenberg:/home/xinruwang/comp_robot_ws/install/beginner_tutorials:/opt/ros/humble /usr/bin/cmake --install /home/xinruwang/comp_robot_ws/build/robot_msgs

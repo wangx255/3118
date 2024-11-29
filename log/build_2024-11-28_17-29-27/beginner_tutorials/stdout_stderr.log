@@ -1,0 +1,26 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating beginner_tutorials.egg-info
+writing beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to beginner_tutorials.egg-info/dependency_links.txt
+writing entry points to beginner_tutorials.egg-info/entry_points.txt
+writing requirements to beginner_tutorials.egg-info/requires.txt
+writing top-level names to beginner_tutorials.egg-info/top_level.txt
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+reading manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'beginner_tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xinruwang/comp_robot_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner-tutorials.egg-link (link to .)
+Installing velocity_pub_py script to /home/xinruwang/comp_robot_ws/install/beginner_tutorials/lib/beginner_tutorials
+Installing velocity_sub_py script to /home/xinruwang/comp_robot_ws/install/beginner_tutorials/lib/beginner_tutorials
+
+Installed /home/xinruwang/comp_robot_ws/build/beginner_tutorials
+running symlink_data
+creating /home/xinruwang/comp_robot_ws/install/beginner_tutorials/share/ament_index
+creating /home/xinruwang/comp_robot_ws/install/beginner_tutorials/share/ament_index/resource_index
+creating /home/xinruwang/comp_robot_ws/install/beginner_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/beginner_tutorials/resource/beginner_tutorials -> /home/xinruwang/comp_robot_ws/install/beginner_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/xinruwang/comp_robot_ws/build/beginner_tutorials/package.xml -> /home/xinruwang/comp_robot_ws/install/beginner_tutorials/share/beginner_tutorials
+symbolically linking /home/xinruwang/comp_robot_ws/build/beginner_tutorials/launch/turtlesim_example.launch.py -> /home/xinruwang/comp_robot_ws/install/beginner_tutorials/share/beginner_tutorials
